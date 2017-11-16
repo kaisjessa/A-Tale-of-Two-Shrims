@@ -7,6 +7,7 @@ A browser game that has been made into a desktop app using Electron.
 1. Download ShrimGameInstaller.dmg
 2. Open it
 3. Add 'A Tale of Two Shrims' to your Applications folder
+**Note:** This only works on Mac. Windows support coming soon.
 
 ## Built With
 
