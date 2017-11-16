@@ -1,0 +1,21 @@
+{
+  "name": "a-tale-of-two-shrims",
+  "productName": "A Tale of Two Shrims",
+  "version": "1.0.0",
+  "description": "A Tale of Two Shrims",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=icon.icns --prune=true --out=release-builds",
+    "create-installer-mac": "electron-installer-dmg ./release-builds/A-Tale-of-Two-Shrims-darwin-x64/A\\ Tale\\ of\\ Two\\ Shrims.app ShrimGameInstaller --out=release-builds --overwrite --icon=icon.icns"
+  },
+  "author": "Kais Jessa",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.7.9"
+  },
+  "devDependencies": {
+    "electron-installer-dmg": "^0.2.1",
+    "electron-packager": "^9.1.0"
+  }
+}
